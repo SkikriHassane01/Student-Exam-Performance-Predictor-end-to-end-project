@@ -2,6 +2,16 @@
 
 This guide provides a comprehensive overview of setting up all the project setup and management
 
+
+# Agenda Project 
+
+1.  Set up the github repository
+      * new environment
+      * setups.py 
+      * requerements.txt
+2.  Src folder and build the packages
+
+2. src the folder and build the package
 ## Step 1: Setting Up the Environment
 
 1. **Create a Conda Environment**
@@ -74,7 +84,42 @@ Creating an` __init__.py` file within a `src` directory for a Python project hel
 pip install -r requirements.txt
 ```
 
+## Step 7 : create all the necessary files
 
+## Components Package
+
+- `__init__.py`
+  - Marks the `components` directory as a Python package, enabling module imports.
+
+- `data_ingestion.py`
+  - Responsible for loading and ingesting data from various sources into the system.
+
+- `data_transformation.py`
+  - Contains code for preprocessing and transforming data for analysis or modeling.
+
+- `model_trainer.py`
+  - Designed to define, train, and evaluate machine learning models.
+
+## Pipeline Package
+
+- `__init__.py`
+  - Initializes the `pipeline` directory as a Python package for importing modules.
+
+- `predict_pipeline.py`
+  - Focuses on making predictions with a trained machine learning model.
+
+- `train_pipeline.py`
+  - Orchestrates the model training process, potentially utilizing functions from `data_ingestion.py` and `data_transformation.py`.
+
+
+- `exception.py`
+  - This module is likely dedicated to defining custom exceptions that your application can raise. Custom exceptions help handle errors more gracefully and can provide more specific error information.
+
+- `logger.py`
+  - Contains the setup for logging in your application. This could include configuring log levels, log formatting, and setting up log files. Logging is critical for tracking events, debugging, and monitoring the application's behavior.
+
+- `utils.py`
+  - A utility module usually contains helper functions that are used across various parts of the application. These can include data manipulation, input validation, and other generic functions that don't fit into more specific modules.
 
 
 
