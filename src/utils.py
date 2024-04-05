@@ -5,6 +5,9 @@ import pandas as pd
 import pickle
 import dill
 
+from sklearn.metrics import r2_score
+from sklearn.model_selection import GridSearchCV
+
 from src.exception import CustomException
 
 
@@ -19,4 +22,10 @@ def save_object(file_path, obj):
 
     except Exception as e:
         raise CustomException(e, sys)
+    
+
+
+def evaluate_models(X_train, X_test,y_train,y_test,models):
+    try:
+        report={}
 
