@@ -2,9 +2,8 @@
 
 ## Introduction
 
-`    
-      This  end-to-end project implements a machine learning model to predict students' mathematics scores based on demographic data and scores in other subjects. The model aims to assist educators and students in understanding potential academic outcomes and addressing areas that may require additional support. this project includes all the steps for any machine learning engineering from data ingestion to deployment
-`
+This  end-to-end project implements a machine learning model to predict students' mathematics scores based on demographic data and scores in other subjects. The model aims to assist educators and students in understanding potential academic outcomes and addressing areas that may require additional support. this project includes all the steps for any machine learning engineering from data ingestion to deployment
+
 
 ## Installation
 To set up the project environment, run:
@@ -20,4 +19,5 @@ Contributions are welcome! For major changes, please open an issue first to disc
 
 ## the final result:
 
-![image](https://github.com/HassaneSkikri/EndToEndMLProject/assets/141918886/056d86a6-4e46-4f2a-b3d7-a27bdbaaaa39)
+![320191479-056d86a6-4e46-4f2a-b3d7-a27bdbaaaa39](https://github.com/user-attachments/assets/c48c1704-be77-4d58-9658-1cabc9a114f3)
+
