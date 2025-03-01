@@ -26,7 +26,7 @@ def git_requirements(filepath:str):
     return requirements
 
 setup(
-    name="MLProject",
+    name="Student_Exam_Score_Prediction",
     version="0.0.1",
     author= "Hassane",
     author_email= "skikrihassane@gmail.com",
